@@ -1,0 +1,92 @@
+@import 'config';
+@import 'utilities';
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.main-body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.fila {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 50vw;
+}
+
+.persona {
+  height: 57vh;
+  width: 22vw;
+  position: relative;
+}
+
+.rostro-img {
+  text-align: center;
+  img {
+    width: 45%;
+    border-radius: 50%;
+  }
+  .medalla {
+    height: 15px;
+    img {
+      width: 11%;
+      position: relative;
+      bottom: 35px;
+      left: 48px;
+    }
+  }
+}
+
+.nombre {
+  text-align: center;
+  .nombre-text {
+    font-size: 36px;
+  }
+}
+
+.body-cumple {
+  display: flex;
+  justify-content: center;
+}
+
+.aviso-cumple {
+  text-align: center;
+  .texto-aviso {
+    font-size: 18px;
+  }
+}
+
+.cumple-container {
+  position: absolute;
+  bottom: 25px;
+}
+
+.fecha-cumple {
+  display: flex;
+  flex-direction: row;
+  width: 160px;
+  align-items: center;
+  justify-content: center;
+  padding: 0.6rem;
+  border-radius: 25px;
+}
+
+.icono-calendario {
+  width: 45px;
+  .calendario-img {
+    width: 55%;
+    filter: brightness(0) invert(1);
+  }
+  .calendario-img-dos {
+    width: 55%;
+    opacity: 0.5;
+  }
+}
+
+.text-calendario {
+  font-size: 24px;
+}
